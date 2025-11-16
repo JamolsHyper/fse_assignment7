@@ -1,9 +1,8 @@
 {
-"scripts": {
-  "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
-  "test": "jest --passWithNoTests",
-  "build": "tsc -p tsconfig.json"
-},
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "jest"
+  },
   "dependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
